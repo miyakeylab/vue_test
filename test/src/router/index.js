@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Test from '@/components/Test'
 import Oyako from '@/components/oyako/Oyako'
 import OyakoStore from '@/components/oyako_store/Oyako'
+import OyakoAtomic from '@/components/atomic_modoki/Oyako'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
       path: '/oyako_store',
       name: 'OyakoStore',
       component: OyakoStore
+    },
+    {
+      path: '/oyako_atomic',
+      name: 'OyakoAtomic',
+      component: OyakoAtomic
     }
   ]
 })

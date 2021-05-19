@@ -3,7 +3,7 @@
       これは親コンポーネントです！！！
     <div>{{ count }}</div>
     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" @click="addCount(1)">count up props</button>
-    <child class="m-auto" :handle-add-number="addCount" @addNumber="addCount" />
+    <child class="m-auto" :count-number="count" :handle-add-number="addCount" @addNumber="addCount" />
   </div>
 </template>
 

@@ -12,6 +12,9 @@
       <li>
         <router-link :to="{ name: 'OyakoStore'}">親子_store</router-link>
       </li>
+      <li>
+        <router-link :to="{ name: 'OyakoAtomic'}">親子_atomic_modoki</router-link>
+      </li>
     </ul>
   </div>
 </template>
